@@ -39,7 +39,7 @@ body{
     margin: 0px auto;
 }
 
-.gear{
+.gear, .icon{
     font-family: 'WebSymbolsRegular';
 }
 
@@ -82,7 +82,7 @@ body{
     float: right;
     font-size: 40px;
     margin-top: 5px;
-    margin-right: 65px;
+    margin-right: 85px;
     transition: all 300ms;
 }
 
@@ -135,4 +135,124 @@ body{
     text-shadow: 2px 2px 1px black;
     letter-spacing: 2px;
     margin: 27px auto;
+}
+
+/* fin de banner */
+
+/* tarjetas */
+
+.card{
+    float: left;
+    width: 205px;
+    height: 305px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden;
+    margin: 16.5px;
+    margin-top: 40px;
+}
+
+.card .icon{
+    display: block;
+    width: 100%;
+    height: 110px;
+    font-size: 50px;
+    line-height: 130px;
+    text-align: center;
+    margin: 0px auto;
+
+
+}
+
+.card .category{
+    width: 100%;
+    height: 50px;
+    font-family: 'TrebuchetMS';
+    font-size: 21px;
+    font-weight: bold;
+    text-align:center;
+    color:#00538c;
+}
+
+.card .description{
+    font-family: 'TrebuchetMS';
+    text-align: center;
+    color: #0370b9;
+    font-size: 15px;
+
+    
+}
+
+
+/* barra lateral */
+
+#lateral{
+    width: 300px;
+    min-height: 1200px;
+    font-family: 'TrebuchetMS';
+    float: right;
+    margin: 20px;
+}
+
+aside h3{
+    display: block;
+    width: auto;
+    height: 43px;
+    line-height: 49px;
+    background: url(../img/pxgray.png), white;
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    font-size: 30px;
+    font-family: 'BebasNeue';
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+aside h3:first-child{
+    margin-top: 0px;
+
+}
+
+#search{
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #ccc insect;
+}
+
+#lateral input[type="text"]{
+    width: 85%;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ccc;
+}
+
+#lateral input[type="text"]:focus{
+    color: #555;
+}
+
+#lateral input[type="button"],
+#lateral input[type="submit"] {
+    height: 30px;
+    cursor:pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid #ccc;
+    color: #555;
+    padding-left: 6px;
+}
+
+
+.aside-box{
+    
 }
